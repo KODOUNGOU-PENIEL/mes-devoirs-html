@@ -1,31 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>PENIEL - L1 CS at CSU</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Peniel Kodoungou - Portfolio</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',sans-serif;background:#f8f9fa;color:#333;line-height:1.7}
+header{background:linear-gradient(135deg,#1e3a8a,#3b82f6);color:white;padding:70px 20px 100px;text-align:center}
+.profile-img{width:160px;height:160px;border-radius:50%;border:5px solid white;object-fit:cover;box-shadow:0 8px 20px rgba(0,0,0,0.3);margin-bottom:20px}
+.badge{display:inline-block;background:rgba(255,255,255,0.2);padding:6px 14px;border-radius:20px;margin:5px;font-size:0.9rem}
+.container{max-width:900px;margin:-60px auto 0;padding:0 20px 40px}
+.card{background:white;border-radius:14px;padding:32px;margin-bottom:25px;box-shadow:0 6px 18px rgba(0,0,0,0.08)}
+.card h2{color:#1e3a8a;margin-bottom:16px;border-left:4px solid #3b82f6;padding-left:12px}
+.edu-item{display:flex;justify-content:space-between;flex-wrap:wrap;margin-bottom:15px;padding-bottom:15px;border-bottom:1px solid #eee}
+.edu-degree{font-weight:bold;color:#1e3a8a}
+.edu-date{background:#e0e7ff;color:#3730a3;padding:4px 12px;border-radius:20px;font-size:0.85rem}
+.contact-btn{display:inline-block;background:#1e3a8a;color:white;padding:10px 20px;border-radius:8px;margin:5px;text-decoration:none}
+.contact-btn:hover{background:#1e40af}
+.tag{display:inline-block;background:#f1f5f9;border:1px solid #e2e8f0;padding:5px 12px;border-radius:8px;margin:4px;font-size:0.85rem}
+.project-box{background:linear-gradient(135deg,#eff6ff,#dbeafe);border:1px solid #bfdbfe;border-radius:12px;padding:22px}
+.footer{text-align:center;padding:30px;color:#666}
+</style>
 </head>
 <body>
-    <h1>Hi, I'm PENIEL KODOUNGOU</h1>
-    <h2>L1 Computer Science Student at Central South University</h2>
+<header>
+< img src="photo.jpg" alt="Peniel Kodoungou" class="profile-img">
+<h1>Peniel Kodoungou</h1>
+<p style="font-size:1.2rem;margin:10px 0">Master 1 Économie Appliquée | Licence Management Système d'Information</p >
+<div>
+<span class="badge">📍 CSU - Université Central South</span>
+<span class="badge">💻 Dev & Économie</span>
+<span class="badge">📧 peniel.kodoungou@gmail.com</span>
+</div>
+<div style="margin-top:20px">
+<a href=" " class="contact-btn">📧 Me contacter</a >
+<a href="https://github.com/KODOUNGOU-PENIEL" class="contact-btn">💻 Mon GitHub</a >
+</div>
+</header>
 
-    <p>Welcome to my first GitHub project. I am passionate about reading,
-    because every book teaches me a new way to see the world.</p >
+<div class="container">
+<div class="card">
+<h2>À propos de moi</h2>
+<p>Bienvenue ! Je suis passionné de lecture, car chaque livre m'apprend une nouvelle façon de voir le monde.</p >
+<p style="margin-top:12px">Titulaire d'une <strong>Licence en Management Système d'Information</strong>, je poursuis en <strong>Master 1 Économie Appliquée</strong> à CSU. Mon parcours hybride me permet de lier compétences techniques et analyse économique pour créer des projets numériques utiles et rentables.</p >
+</div>
 
-    <p>Currently in L1 Computer Science at CSU, I am learning the fundamentals of web development.</p >
+<div class="card">
+<h2>Parcours Académique</h2>
+<div class="edu-item">
+<div><div class="edu-degree">Master 1 en Économie Appliquée</div><div style="color:#666">Université Central South (CSU) - Première année</div></div>
+<span class="edu-date">2025 - Présent</span>
+</div>
+<div class="edu-item">
+<div><div class="edu-degree">Licence en Management Système d'Information</div><div style="color:#666">Diplômé - Systèmes d'Information & Gestion</div></div>
+<span class="edu-date">Obtenue</span>
+</div>
+<p style="margin-top:10px;color:#555">Cours actuels : Développement web appliqué à l'économie, analyse de données, modélisation économique.</p >
+</div>
 
-    <h3>My Big Project:</h3>
-    <p>My dream is to build my own <strong>e-commerce website</strong>.
-    A platform where people can easily buy books, clothes and accessories from their phone.</p >
+<div class="card">
+<h2>Mon grand projet</h2>
+<div class="project-box">
+<strong>🚀 Créer mon site e-commerce</strong>
+<p style="margin-top:10px">Une plateforme pour acheter livres, vêtements et accessoires depuis le téléphone. Avec ma double compétence en SI et Économie Appliquée, je vise une boutique belle, performante et économiquement viable.</p >
+</div>
+</div>
 
-    <h3>What I am learning right now:</h3>
-    <ul>
-        <li>HTML: to build the structure of my future store</li>
-        <li>CSS: to make it beautiful and attractive</li>
-        <li>GitHub: to save and showcase my work</li>
-    </ul>
+<div class="card">
+<h2>Compétences</h2>
+<span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">GitHub</span><span class="tag">Économie Appliquée</span><span class="tag">Système d'Information</span><span class="tag">Analyse de données</span><span class="tag">E-commerce</span><span class="tag">Management</span>
+<p style="margin-top:18px;font-style:italic;color:#1e3a8a"><strong>De mes-devoirs-html à mon futur site e-commerce !</strong></p >
+</div>
+</div>
 
-    <p><em>This is the beginning of my journey. From mes-devoirs-html to my future e-commerce site!</em></p >
-    <hr>
-    <p>My GitHub: KODOUNGOU-PENIEL | CSU - L1 Computer Science</p >
+<div class="footer">© 2026 Peniel Kodoungou | Master Économie Appliquée - CSU | Fait avec ❤️ et GitHub Pages</div>
 </body>
 </html>
